@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445C7B6C221B51F50075B7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C7B6B221B51F50075B7D8 /* AppDelegate.swift */; };
+		445C7B6E221B51F50075B7D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C7B6D221B51F50075B7D8 /* ViewController.swift */; };
+		445C7B71221B51F50075B7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445C7B6F221B51F50075B7D8 /* Main.storyboard */; };
+		445C7B74221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445C7B72221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodeld */; };
+		445C7B76221B51F60075B7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445C7B75221B51F60075B7D8 /* Assets.xcassets */; };
+		445C7B79221B51F60075B7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445C7B77221B51F60075B7D8 /* LaunchScreen.storyboard */; };
+		445C7B84221B51F60075B7D8 /* ortbalsn_challenge_core_dataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C7B83221B51F60075B7D8 /* ortbalsn_challenge_core_dataTests.swift */; };
+		445C7B8F221B51F60075B7D8 /* ortbalsn_challenge_core_dataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C7B8E221B51F60075B7D8 /* ortbalsn_challenge_core_dataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445C7B80221B51F60075B7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445C7B60221B51F50075B7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445C7B67221B51F50075B7D8;
+			remoteInfo = "ortbalsn-challenge-core-data";
+		};
+		445C7B8B221B51F60075B7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445C7B60221B51F50075B7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445C7B67221B51F50075B7D8;
+			remoteInfo = "ortbalsn-challenge-core-data";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445C7B68221B51F50075B7D8 /* ortbalsn-challenge-core-data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ortbalsn-challenge-core-data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		445C7B6B221B51F50075B7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		445C7B6D221B51F50075B7D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		445C7B70221B51F50075B7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445C7B73221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ortbalsn_challenge_core_data.xcdatamodel; sourceTree = "<group>"; };
+		445C7B75221B51F60075B7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445C7B78221B51F60075B7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445C7B7A221B51F60075B7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445C7B7F221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ortbalsn-challenge-core-dataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		445C7B83221B51F60075B7D8 /* ortbalsn_challenge_core_dataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ortbalsn_challenge_core_dataTests.swift; sourceTree = "<group>"; };
+		445C7B85221B51F60075B7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445C7B8A221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ortbalsn-challenge-core-dataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		445C7B8E221B51F60075B7D8 /* ortbalsn_challenge_core_dataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ortbalsn_challenge_core_dataUITests.swift; sourceTree = "<group>"; };
+		445C7B90221B51F60075B7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445C7B65221B51F50075B7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C7B7C221B51F60075B7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C7B87221B51F60075B7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445C7B5F221B51F50075B7D8 = {
+			isa = PBXGroup;
+			children = (
+				445C7B6A221B51F50075B7D8 /* ortbalsn-challenge-core-data */,
+				445C7B82221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests */,
+				445C7B8D221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests */,
+				445C7B69221B51F50075B7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445C7B69221B51F50075B7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445C7B68221B51F50075B7D8 /* ortbalsn-challenge-core-data.app */,
+				445C7B7F221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests.xctest */,
+				445C7B8A221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445C7B6A221B51F50075B7D8 /* ortbalsn-challenge-core-data */ = {
+			isa = PBXGroup;
+			children = (
+				445C7B6B221B51F50075B7D8 /* AppDelegate.swift */,
+				445C7B6D221B51F50075B7D8 /* ViewController.swift */,
+				445C7B6F221B51F50075B7D8 /* Main.storyboard */,
+				445C7B75221B51F60075B7D8 /* Assets.xcassets */,
+				445C7B77221B51F60075B7D8 /* LaunchScreen.storyboard */,
+				445C7B7A221B51F60075B7D8 /* Info.plist */,
+				445C7B72221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodeld */,
+			);
+			path = "ortbalsn-challenge-core-data";
+			sourceTree = "<group>";
+		};
+		445C7B82221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests */ = {
+			isa = PBXGroup;
+			children = (
+				445C7B83221B51F60075B7D8 /* ortbalsn_challenge_core_dataTests.swift */,
+				445C7B85221B51F60075B7D8 /* Info.plist */,
+			);
+			path = "ortbalsn-challenge-core-dataTests";
+			sourceTree = "<group>";
+		};
+		445C7B8D221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				445C7B8E221B51F60075B7D8 /* ortbalsn_challenge_core_dataUITests.swift */,
+				445C7B90221B51F60075B7D8 /* Info.plist */,
+			);
+			path = "ortbalsn-challenge-core-dataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445C7B67221B51F50075B7D8 /* ortbalsn-challenge-core-data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445C7B93221B51F60075B7D8 /* Build configuration list for PBXNativeTarget "ortbalsn-challenge-core-data" */;
+			buildPhases = (
+				445C7B64221B51F50075B7D8 /* Sources */,
+				445C7B65221B51F50075B7D8 /* Frameworks */,
+				445C7B66221B51F50075B7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ortbalsn-challenge-core-data";
+			productName = "ortbalsn-challenge-core-data";
+			productReference = 445C7B68221B51F50075B7D8 /* ortbalsn-challenge-core-data.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445C7B7E221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445C7B96221B51F60075B7D8 /* Build configuration list for PBXNativeTarget "ortbalsn-challenge-core-dataTests" */;
+			buildPhases = (
+				445C7B7B221B51F60075B7D8 /* Sources */,
+				445C7B7C221B51F60075B7D8 /* Frameworks */,
+				445C7B7D221B51F60075B7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445C7B81221B51F60075B7D8 /* PBXTargetDependency */,
+			);
+			name = "ortbalsn-challenge-core-dataTests";
+			productName = "ortbalsn-challenge-core-dataTests";
+			productReference = 445C7B7F221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		445C7B89221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445C7B99221B51F60075B7D8 /* Build configuration list for PBXNativeTarget "ortbalsn-challenge-core-dataUITests" */;
+			buildPhases = (
+				445C7B86221B51F60075B7D8 /* Sources */,
+				445C7B87221B51F60075B7D8 /* Frameworks */,
+				445C7B88221B51F60075B7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445C7B8C221B51F60075B7D8 /* PBXTargetDependency */,
+			);
+			name = "ortbalsn-challenge-core-dataUITests";
+			productName = "ortbalsn-challenge-core-dataUITests";
+			productReference = 445C7B8A221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445C7B60221B51F50075B7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nathan Ortbals";
+				TargetAttributes = {
+					445C7B67221B51F50075B7D8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					445C7B7E221B51F60075B7D8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 445C7B67221B51F50075B7D8;
+					};
+					445C7B89221B51F60075B7D8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 445C7B67221B51F50075B7D8;
+					};
+				};
+			};
+			buildConfigurationList = 445C7B63221B51F50075B7D8 /* Build configuration list for PBXProject "ortbalsn-challenge-core-data" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445C7B5F221B51F50075B7D8;
+			productRefGroup = 445C7B69221B51F50075B7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445C7B67221B51F50075B7D8 /* ortbalsn-challenge-core-data */,
+				445C7B7E221B51F60075B7D8 /* ortbalsn-challenge-core-dataTests */,
+				445C7B89221B51F60075B7D8 /* ortbalsn-challenge-core-dataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445C7B66221B51F50075B7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445C7B79221B51F60075B7D8 /* LaunchScreen.storyboard in Resources */,
+				445C7B76221B51F60075B7D8 /* Assets.xcassets in Resources */,
+				445C7B71221B51F50075B7D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C7B7D221B51F60075B7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C7B88221B51F60075B7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445C7B64221B51F50075B7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445C7B6E221B51F50075B7D8 /* ViewController.swift in Sources */,
+				445C7B6C221B51F50075B7D8 /* AppDelegate.swift in Sources */,
+				445C7B74221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C7B7B221B51F60075B7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445C7B84221B51F60075B7D8 /* ortbalsn_challenge_core_dataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C7B86221B51F60075B7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445C7B8F221B51F60075B7D8 /* ortbalsn_challenge_core_dataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445C7B81221B51F60075B7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445C7B67221B51F50075B7D8 /* ortbalsn-challenge-core-data */;
+			targetProxy = 445C7B80221B51F60075B7D8 /* PBXContainerItemProxy */;
+		};
+		445C7B8C221B51F60075B7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445C7B67221B51F50075B7D8 /* ortbalsn-challenge-core-data */;
+			targetProxy = 445C7B8B221B51F60075B7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		445C7B6F221B51F50075B7D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445C7B70221B51F50075B7D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		445C7B77221B51F60075B7D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445C7B78221B51F60075B7D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445C7B91221B51F60075B7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		445C7B92221B51F60075B7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445C7B94221B51F60075B7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ortbalsn-challenge-core-data/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanOrtbals.ortbalsn-challenge-core-data";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		445C7B95221B51F60075B7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ortbalsn-challenge-core-data/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanOrtbals.ortbalsn-challenge-core-data";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		445C7B97221B51F60075B7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ortbalsn-challenge-core-dataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanOrtbals.ortbalsn-challenge-core-dataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ortbalsn-challenge-core-data.app/ortbalsn-challenge-core-data";
+			};
+			name = Debug;
+		};
+		445C7B98221B51F60075B7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ortbalsn-challenge-core-dataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanOrtbals.ortbalsn-challenge-core-dataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ortbalsn-challenge-core-data.app/ortbalsn-challenge-core-data";
+			};
+			name = Release;
+		};
+		445C7B9A221B51F60075B7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ortbalsn-challenge-core-dataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanOrtbals.ortbalsn-challenge-core-dataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ortbalsn-challenge-core-data";
+			};
+			name = Debug;
+		};
+		445C7B9B221B51F60075B7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ortbalsn-challenge-core-dataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanOrtbals.ortbalsn-challenge-core-dataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ortbalsn-challenge-core-data";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445C7B63221B51F50075B7D8 /* Build configuration list for PBXProject "ortbalsn-challenge-core-data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C7B91221B51F60075B7D8 /* Debug */,
+				445C7B92221B51F60075B7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445C7B93221B51F60075B7D8 /* Build configuration list for PBXNativeTarget "ortbalsn-challenge-core-data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C7B94221B51F60075B7D8 /* Debug */,
+				445C7B95221B51F60075B7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445C7B96221B51F60075B7D8 /* Build configuration list for PBXNativeTarget "ortbalsn-challenge-core-dataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C7B97221B51F60075B7D8 /* Debug */,
+				445C7B98221B51F60075B7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445C7B99221B51F60075B7D8 /* Build configuration list for PBXNativeTarget "ortbalsn-challenge-core-dataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C7B9A221B51F60075B7D8 /* Debug */,
+				445C7B9B221B51F60075B7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		445C7B72221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				445C7B73221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodel */,
+			);
+			currentVersion = 445C7B73221B51F50075B7D8 /* ortbalsn_challenge_core_data.xcdatamodel */;
+			path = ortbalsn_challenge_core_data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 445C7B60221B51F50075B7D8 /* Project object */;
+}
